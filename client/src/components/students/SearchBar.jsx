@@ -1,8 +1,9 @@
 import React from 'react'
+import { assets } from '../../assets/assets'
 
 const SearchBar = () => {
   return (
-    <div>SearchBar</div>
+    <form><img src={assets.search_icon} className='md:w-auto w-10 px-3' alt="" /></form>
   )
 }
 
